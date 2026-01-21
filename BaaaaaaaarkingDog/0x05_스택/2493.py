@@ -15,7 +15,6 @@ for x in stack:
     temp.pop()
     
   if temp and temp[-1][1] > x:
-    # temp.append((temp[-1][0], x))
     out.append(temp[-1][0])
   else:
     out.append("0")
