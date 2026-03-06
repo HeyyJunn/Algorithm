@@ -58,5 +58,6 @@ while j_dq:
 
 print("IMPOSSIBLE")
 
+
 ###################################
 # print(f"debug: {}")
