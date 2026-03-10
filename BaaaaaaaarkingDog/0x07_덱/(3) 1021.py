@@ -30,16 +30,3 @@ for i in range(m):
     dq.popleft()
 
 print(cnt)
-
-    
-    
-    
-    
-    
-
-
-
-  
-
-
-  
