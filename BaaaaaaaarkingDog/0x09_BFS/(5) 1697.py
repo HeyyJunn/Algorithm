@@ -14,6 +14,7 @@ visited = [0] * 100_001
 dq.append((N, 0))
 visited[N] = 1
 
+
 while dq:
   cur_N, cur_Time = dq.popleft()
   # print(f"cur_N: {cur_N}, cur_Time: {cur_Time}")
