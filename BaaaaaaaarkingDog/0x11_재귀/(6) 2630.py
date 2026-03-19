@@ -11,7 +11,7 @@ def count_papers(N, x, y, board):
       for dy in [0, new_size]:
         count_papers(new_size, x + dx, y + dy, board)
   else:
-    count_colors[board[x][y]] += 1
+    count_colors[board[x][y]] += 1 
     return
 
 def check_bool(N, x, y, board):
