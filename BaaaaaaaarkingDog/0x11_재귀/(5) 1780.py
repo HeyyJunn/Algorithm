@@ -1,6 +1,8 @@
 import sys
 input = sys.stdin.readline
 
+N = int(input())
+
 paper_counts = [0, 0, 0]
 
 def count_papers(size, x, y, board):
@@ -30,7 +32,6 @@ def count_papers(size, x, y, board):
     # count_papers(new_size, x, y+2*new_size, board)    
     # count_papers(new_size, x+new_size, y+2*new_size, board)    
     # count_papers(new_size, x+2*new_size, y+2*new_size, board)   
-
   else:
     paper_counts[board[x][y] + 1] += 1
 

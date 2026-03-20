@@ -1,3 +1,3 @@
-import math
+print("slice\n")
 
-print(math.ceil(2*0.15))
+print("abcd\abcd\nabcd\\")
