@@ -4,7 +4,6 @@ input = sys.stdin.readline
 N, M = map(int, input().split())
 board = list(map(int, input().split()))
 board.sort()
-
 path = []
 
 def backtrack():
